@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscricao</title>
+</head>
+
+<body>
+    <table>
+    <tr>
+        <td>
+            <a href="index.html">
+            <img src="midias/logo.avif"  name="logo"  id="logo" alt="logo" width="100" height="80">
+            </a>
+        </td>
+        <td><a href="inscricao.html">Inscricao </a></td>
+        <td><a href="horarios.html">Horarios</a></td>
+        <td><a href="contato.html">Contato</a></td>
+    </tr>
+    </table> 
+    
+    <h1>Formulário de inscrição</h1>
+
+    <form action="https://escola.ifrs.edu/cadastro.php" method="post">
+        
+        <label for="nome">Nome Completo:</label> <br>
+        <input type="text" id="nome" required>   <br>
+                                                 <br>
+        <label for="email">Email:</label>                   <br>
+        <input type="email" id="email" required>            <br>
+                                                            <br>
+        <label for="data">Data de Nascimento:</label>  <br>
+        <input type="date" id="nascimento" required>   <br>
+                                                       <br>
+        
+        <label for="opcoes">Curso Desejado:</label>   <br>
+        <select id="opcoes" name="opcoes">
+            <option value="violao">Violão</option>
+            <option value="bateria">Bateria</option>
+            <option value="baixo">Baixo</option>
+            <option value="canto">Canto</option>
+        </select>                                           <br>
+
+        <label for="horario">Horário Preferido:</label>     <br>
+        <input type="checkbox" id="manha" name="horario" value="manha">
+        <label for="manha">Manhã</label>
+        <input type="checkbox" id="tarde" name="horario" value="tarde">
+        <label for="tarde">Tarde</label>
+        <input type="checkbox" id="noite" name="horario" value="noite">
+        <label for="noite">Noite</label>
+                                                                            <br>                                                                           
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+
+        </form>
+</body>
+</html>
