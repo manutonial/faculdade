@@ -1,0 +1,18 @@
+Sequencia Sugerida de "Estudo" (leitura) dos Algoritmos
+
+Somatorio
+Produtorio
+SomatorioVersaoDois
+SomatorioNNumeros
+SomatorioAteQue
+ContagemAteQue
+SomatorioComContagemAteQue
+SomatorioComLimiteMaximo
+SomatorioComCriterios
+ContagemComCriterios
+SomatorioComCriteriosEContagem
+MediaQuantidadeIndefinida
+Maximo
+Minimo
+MaximoMinimo
+DecomposicaoStringEmChar
