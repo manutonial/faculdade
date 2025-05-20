@@ -1,4 +1,4 @@
- ![College Banner](https://upload.wikimedia.org/wikipedia/commons/3/3d/IFRS_logo.png)
+
 
 # Análise e Desenvolvimento de Sistemas - IFRS Erechim
 
