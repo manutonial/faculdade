@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+}
+#div1{
+   text-align: center;
+}
+h2{
+    color: gray;
+}
+.p1{
+    background-color: white;
+}
+.p2{
+    background-color: white;
+}
+.sam,.hp{
+    background-color: coral;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+a{
+    font-size: 25px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

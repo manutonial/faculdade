@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario EaD</title>
+</head>
+
+<body>
+     
+    <h1>Formulário de Cadastro</h1>                                                  
+    <form>
+        <label for="nm">Nome completo:</label>                                       <br>
+        <input type="text" id="nm" name="jose" placeholder="Digite seu nome" >        <br>
+
+        <label for="em">Email:</label>                                               <br>
+        <input type="email" id="em" name="email" placeholder="Digite seu email" required>     <br>
+
+        <label for="em">Telefone:</label>                                            <br>
+        <input type="number" id="nb" name="number" placeholder="Digite seu número" required>  <br>
+
+        <label for="mnt">Tempo de contrato em meses:</label>                         <br>
+        <input type="number" id="mnt" name="month">                                  <br>
+
+        <label for="mnt">Data de nascimento:</label>                                 <br>
+        <input type="date" id="dt" name="date">                                      <br>
+                                                                                    
+       
+        <label>Sexo:</label>                                                         <br>
+        
+        <input type="radio" name="sexo" id="Man" value="Man">                      
+        <label for="manha">Masculino</label>                                            
+            
+        <input type="radio" name="sexo" id="Fem" value="Fem">                                             
+        <label for="F">Feminino</label>                                              <br>        
+      
+        
+        <legend>Interesses:</legend>
+        <input type="checkbox" name="boxe" id=bx>
+        <label for="bx">Boxe</label>
+
+        <input type="checkbox" name="baska" id=baska>
+        <label for="baska">Basquetebol</label>
+
+        <input type="checkbox" name="futebol" id=ft>
+        <label for="ft">Futebol</label>                                              <br>
+       
+        <label for="estado">Estado:</label>                                          <br>
+    <select name="estado" id="estado" aria-placeholder="Selecione um estado">        
+            <option value="" disabled selected>Selecione um estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+    </select>                                                                       <br>
+
+            <label for="msg'">Mensagem:</label>                                     <br>
+            <textarea name="msg" id="msg" rows="10" cols="50" placeholder="Digite uma mensagem"></textarea>                    <br>
+
+            <input type="submit" value="Enviar" name="salvar">
+            <input type="reset" value="limpar" name="limpar">
+
+</form>   
+</body>
+
+</html>

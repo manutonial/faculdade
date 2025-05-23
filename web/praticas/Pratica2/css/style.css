@@ -1,0 +1,105 @@
+body{
+    background-color: #f0c9cc;
+    border: 20px;
+}
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.opcoes{ 
+    margin:20px;
+    list-style-type: none;
+    display: inline-block;
+    
+}    
+.p1{
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.p2{
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.sam,.hp{
+    background-color: coral;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    font-size: 25px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 50.00;    
+}
+.img-row {
+    display: flex;
+    justify-content: center;
+    gap: 0; 
+}
+.lower {
+    align-self: flex-end;   
+    margin-top: 40px; 
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background: #f0c9cc; 
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.opcoes {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.bubble {
+    background: #f0c9cc;    
+    color: #333;
+    border: none;
+    border-radius: 20px;    
+    padding: 12px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04); 
+}
+
+.bubble:hover {
+    background: #ffb6b9;    
+    color: #ff5722;
+    text-decoration: none;
+}
+.whats{
+    position: fixed;
+    top: 55%;
+    left: 100%;
+    transform: translate(-100%,-100%);  
+    width: 50px;
+    height: 50px;
+    background: transparent;
+}
