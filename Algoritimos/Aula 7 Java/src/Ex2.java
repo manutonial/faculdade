@@ -8,14 +8,15 @@ public class Ex2 {
         double n_2[] = new double[10];
         double resultado[] = new double[10];
         
-        for(int i = 0; i < n_1.length; i++){
+        for(int i = 0; i < n_1.length; i++) {
             
             n_1[i] = leitor.nextDouble();
             n_2[i] = leitor.nextDouble();
             
             resultado[i] = n_1[i] * n_2[i]; 
+            
         }
-        for(int i = 0; i < resultado.length; i++){
+        for(int i = 0; i < resultado.length; i++) {
             
             System.out.println(resultado[i]);
         }

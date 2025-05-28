@@ -10,12 +10,13 @@ public class Ex1 {
             
             vetor[i] = leitor.nextDouble();
         }    
-            for (int i = 0; i < vetor.length; i++){
-            
-                System.out.println(vetor[i] * vetor[i]);
-                System.out.println(vetor[i] * vetor[i] * vetor[i]);
-                System.out.println("---------------");
-            }
+          // exibir o quadrado e o cubo dos elementos do array
+          
+          for ( double elemento : vetor) {
+              
+              System.out.println(Math.pow(elemento,2) + " " + Math.pow(elemento,3));
+           
+          }
         
     }
    
