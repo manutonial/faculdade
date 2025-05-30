@@ -1,0 +1,117 @@
+/* pega todos os p dentro da div 
+div p{
+    color: red;
+}
+/* pega apenas as filhas da div, porque estao na section
+div > p {
+
+}
+    pega apenas o PRIMEIRO elemento apos a div
+div + p {
+
+}
+
+    pega TODOS elementos apos a div
+div ~ p {
+
+} */
+
+div:hover {
+    font-style:oblique;
+}
+
+a:visited {
+    color: fuchsia;
+}
+
+input:focus {
+    background-color: aquamarine;
+    outline: none;
+}
+
+input[type='text']:invalid {
+    border: 3px solid red;
+    border-radius: 5px;
+    width: 35%;
+    height: 20px;
+    border-collapse: collapse;
+} 
+
+input[type='text']:valid {
+    border: 3px solid green;
+    border-radius: 15px;
+    width: 35%;
+    height: 20px;
+    border-collapse: collapse;
+}
+
+form > div {
+    margin-bottom: 1em; /* space between blocks */
+}
+
+thead {
+    background-color: pink;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: gray;
+}
+
+table {
+    border: 2px solid black; 
+    border-radius: 10px; 
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+p::selection {
+    background-color: rgb(139, 71, 202);
+}
+
+input {
+    width: 35%;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    border-collapse: collapse;
+}
+
+#nome {
+    background-image: url(../img/free-user-icon-3296-thumb.png);
+    background-size: 20px;
+    background-position: 10px 3px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[type='submit'] {
+    background-color: green;
+    color: white;
+
+}
+
+input[type='reset'] {
+    background-color: red;
+    color: white;   
+}
+
+#idade {
+    background-image: url(../img/age.webp);
+    background-size: 30px;
+    background-position: 10px -3px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+#tabela {
+    overflow-x: auto;
+}
+
+.alt {
+    color: pink;
+    font-size: 40px;
+}
+
+
+
