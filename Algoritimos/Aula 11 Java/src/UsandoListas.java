@@ -20,6 +20,7 @@ public class UsandoListas {
         
         System.out.println("Qual o tamanho do array? " + lista.size());
         System.out.println(lista);
+
         
         // remove indice 2 (Passo Fundo) e Sertao vira o indice 2
         lista.remove(2);
