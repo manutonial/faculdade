@@ -1,0 +1,101 @@
+body {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 100px;
+  background: linear-gradient(135deg, #fefcfb 0%, #f3f7f6 100%);
+}
+
+/* Backgrounds */
+.my-navbar-bg {
+  background: linear-gradient(90deg, #ffffff 0%, #f5f5f5 100%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.my-main-bg {
+  background: #fffafc;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  padding: 32px 24px;
+  margin-top: 32px;
+}
+
+/* Navbar */
+.nav-link {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.nav-link::after {
+  content: ''; /* faz ter aquele underline no navlink (AI) */
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #d440ca;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
+h2, h1 {
+  color: #40394a;
+}
+
+.titulo {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #3d3d3d;
+  align-items: center;
+}
+
+/* Banners */
+.hero-banner h1,
+.hero-banner p {
+  color: #fff;
+}
+
+.hero-banner {
+  background: url("img/campos.jpg") center/cover no-repeat;
+  height: 30vh;
+  position: relative;
+}
+
+.hero-banner .overlay {
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* Imagens */
+.entrada{
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.guardachuva {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.camposf {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+

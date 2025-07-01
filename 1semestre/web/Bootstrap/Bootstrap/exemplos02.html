@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Exemplos 2</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">
+                                Home
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#" >Action 2</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search"/>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container">
+
+            <form action="teste.php" method="get">
+
+                <div class="mb3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" name="nome" class="form-control">
+                    <small class="form-text">Help text</small>
+                </div>
+
+            </form>
+
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" value="S" id="teste" name="teste"/>
+                <label class="form-check-label" for="teste"> Default switch checkbox </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="" checked/>
+                <label class="form-check-label" for=""> Checked checkbox </label>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="" id="" />
+                <label class="form-check-label" for=""> Default radio </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="" id="" checked disabled/>
+                <label class="form-check-label" for=""> Default checked radio </label>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+
+            <div class="mb-3">
+                <label for="" class="form-label">City</label>
+                <select class="form-select form-select-lg" name="" id="">
+                    <option selected>Select one</option>
+                    <option value="">New Delhi</option>
+                    <option value="">Istanbul</option>
+                    <option value="">Jakarta</option>
+                </select>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="formId1" id="formId1" placeholder=""/>
+                <label for="formId1">Name</label>
+            </div>
+
+        </div>
+
+        <!-- ---------------------------------------------------------------------------------------------- -->
+
+        <!-- Button trigger modal -->
+        <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId"
+        >
+            Launch
+        </button>
+        
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="modalId"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">
+                            Modal title
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">Add rows here</div>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            var modalId = document.getElementById('modalId');
+        
+            modalId.addEventListener('show.bs.modal', function (event) {
+                  // Button that triggered the modal
+                  let button = event.relatedTarget;
+                  // Extract info from data-bs-* attributes
+                  let recipient = button.getAttribute('data-bs-whatever');
+        
+                // Use above variables to manipulate the DOM
+            });
+        </script>
+        
+        
+
+
+
+
+
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

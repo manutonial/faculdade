@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+}
+
+.box {
+    background: #FC466B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3F5EFB, #FC466B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3F5EFB, #FC466B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 32px 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+}
+
+.box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.box form > img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email label {
+    display: block;
+    align-items: left;
+}
+
+.email input {
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+}
+
+.email input:hover,
+.senha input:hover {
+    border: 2px solid #3F5EFB; 
+    outline: none;
+}
+
+.senha label {
+    display: block;
+}
+
+.senha input {
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+}
+
+.enviar input{
+    background-color: green;
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+}
+
+.limpar input {
+    background-color: red;
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+}
+
+.enviar, .limpar {
+    padding: 1px;
+}
+
+#imag {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    width: 400px;
+    height: 100px;
+}
+
