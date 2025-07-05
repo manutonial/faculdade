@@ -1,4 +1,4 @@
-![Banner](1semesre/images/ifrs.png)
+![Banner](1semestre/images/ifrs.png)
 
 # Análise e Desenvolvimento de Sistemas - IFRS Erechim
 
