@@ -30,7 +30,7 @@ Este diretório contém os projetos e exercícios desenvolvidos durante o primei
 
 
 
-\- Linguagem C (Algoritmos)
+\- Linguagem Java (Algoritmos)
 
 \- HTML, CSS, JavaScript (Web)
 
