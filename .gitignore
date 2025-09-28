@@ -1,1 +1,28 @@
-images/
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Build artifacts and temporary files
+*.log
+*.tmp
+*.bak
+/build/
+/dist/
+/target/
+/node_modules/ # For JavaScript projects
+__pycache__/ # For Python projects
+*.pyc # For Python projects
+*.class # For Java projects
+
+# Sensitive information (if applicable, be cautious)
+*.env
+.env.local
