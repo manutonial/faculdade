@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+@media screen and (min-width: 400px) 
+{
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 600px) 
+{
+    body {
+        background-color: lightpink;
+    }
+}
+
+@media print 
+{
+    body {
+        background-color: gray;
+    }
+
+    .nprint {
+        display: none;
+    }
+}

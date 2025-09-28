@@ -1,0 +1,13 @@
+.idade {
+    background-color: red;
+    color: white;
+}
+ 
+table {
+    border: 3px solid rgb(230, 89, 188);
+    border-collapse: collapse;
+}
+
+td {
+    color: red;
+}

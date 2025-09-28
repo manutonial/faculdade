@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <title>Aula 5 web2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <h1>Jquery 25/09</h1>
+        <div class="mb-3">
+            <label for="produto-input" class="form-label">Produto:</label>
+            <input type="text" class="form-control" name="produto" id="produto-input" aria-describedby="helpId"
+                placeholder="Insira um elemento" />
+        </div>
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col">
+                <a name="botao" id="botao-confirmar" class="btn btn-primary" href="#" role="button">Adicionar</a>
+                <small id="helpId" class="form-text text-muted">Help text</small>
+            </div>
+        </div>
+
+        <ul class="list-group" id="lista-produtos">
+            <li class="list-group-item list-group-item-warning produto">Banana</li>
+            <li class="list-group-item list-group-item-danger produto">Maça</li>
+            <li class="list-group-item list-group-item-info produto">Mirtilo</li>
+            <li class="list-group-item list-group-item-warning produto">Abacaxi</li>
+        </ul>
+    </div>
+
+    <div class="container text-center mt-3">
+        <div class="mb-3">
+            <label for="" class="form-label">CPF</label>
+            <input type="text" class="cpf form-control" name="cpf" id="cpf" aria-describedby="helpId" placeholder="" />
+            <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+    </div>
+
+    <div class="container text-center mt-3">
+            <label for="placa" class="form-label">Placa</label>
+            <input type="text" class="placa form-control" name="placa" id="placa">
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js'></script>
+
+</body>
+
+</html>

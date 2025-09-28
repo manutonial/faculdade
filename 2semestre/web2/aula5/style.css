@@ -1,0 +1,13 @@
+.produto{
+    color: black;
+    margin: 2px;
+    font-size: 18px;
+}
+
+.riscado{
+    text-decoration: line-through;
+}
+
+li{
+    list-style: none;
+}

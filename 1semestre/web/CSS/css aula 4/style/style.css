@@ -1,0 +1,40 @@
+html, body {
+    height: 100vh;
+}
+body {
+    background-image: url('../img/5072612.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background: #b92b27;   fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #1565C0, #b92b27);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1 {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: italic;
+    color: var(--fontcolor);
+}
+#texto1 {
+    font-size: 20px;
+}
+#linha1 {
+    font-size: 2em;
+}
+html {
+    font-size: 40px;
+}
+
+/*.gradiente {
+    background-image: linear-gradient(to right, #108dc7, #ef8e38);
+    width: fit-content;
+    background-clip: text;
+    color: transparent; 
+}/*
+/* Variaveis */
+:root {
+ --fontcolor: #278cff;
+ --white: #ffffff;
+}
+

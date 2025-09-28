@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/contato.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+        <!-- Navbar -->
+    <header>
+        <nav class="navbar fixed-top my-navbar-bg navbar-expand-md">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <div class="d-inline ms-auto">
+                    <a class="ms-3 nav-link d-inline" href="index.html">Home</a>
+                    <a class="ms-3 nav-link d-inline" href="buques.html">Buques</a>
+                    <a class="ms-3 nav-link d-inline" href="sobre.html">Sobre nós</a>
+                    <a class="ms-3 nav-link d-inline" href="contato.html">Contate-nos</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="container align-items-center my-main-bg mt-5 pt-3">
+        <section class="contact-section text-center py-5">
+            <h1 class="display-5 fw-bold text-dark">Contate-nos</h1>
+            <p class="lead text-white mb-4">Entre em contato com a D'Agostini Floricultura. Estamos prontos para ajudar com seus pedidos ou dúvidas!</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST" class="contact-form bg-white p-4 rounded shadow-sm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold">Nome</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="youremail@gmail.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label fw-bold">Assunto</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Assunto da mensagem" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label fw-bold">Mensagem</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="btn-enviar">Enviar</button>
+                    </form>
+                </div>
+                
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <div class="contact-info bg-white p-4 rounded shadow-sm">
+                        <h5 class="fw-bold">Informações de Contato</h5>
+                        <p><i class="bi bi-envelope"></i> contatodagostini@dagostini.com.br</p>
+                        <p><i class="bi bi-telephone"></i> (54) 99700-3407</p>
+                        <p><i class="bi bi-geo-alt"></i> Avenida 7 de Setembro, Centro</p>
+                        <p>
+                            <a href="https://www.instagram.com/floriculturadagostini" target="_blank" class="text-dark text-decoration-none">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://www.facebook.com/floriculturadagostini" target="_blank" class="text-dark text-decoration-none">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="bg-white text-dark py-5 mt-5 border-top">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-3">
+                        <h5 class="fw-bold">Descubra</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+                            <li><a href="buques.html" class="text-dark text-decoration-none">Buquês</a></li>
+                            <li><a href="sobre.html" class="text-dark text-decoration-none">Sobre nós</a></li>
+                            <li><a href="contato.html" class="text-dark text-decoration-none">Contate-nos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold">Produtos</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark text-decoration-none">Buquês para presente</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Arranjos para Aniversário</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Flores para Casamento</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Presentes com Flores</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold">Empresa</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark text-decoration-none">Termos e Condições</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Política de Privacidade</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Entrega & Garantia</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Avaliações</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <form>
+                            <h5 class="fw-bold">Receba Novidades</h5>
+                            <p class="text-muted">Receba as novidades de nossa loja mensalmente</p>
+                            <div class="d-flex flex-column flex-sm-row gap-2">
+                                <input id="newsletter1" type="email" class="form-control"
+                                    placeholder="youremail@gmail.com">
+                                <button class="btn btn-primary" type="submit" id="btn-enviar">Assinar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
+                    <p class="mb-2">© 2025 D'Agostini, Inc. Todos os direitos reservados.</p>
+
+                    <ul class="list-unstyled d-flex mb-0">
+                        <li class="ms-3">
+                            <a class="text-dark text-decoration-none"
+                                href="https://www.instagram.com/floriculturadagostini" target="_blank"
+                                aria-label="Instagram">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </li>
+
+                        <li class="ms-3">
+                            <a class="text-dark text-decoration-none"
+                                href="https://www.facebook.com/floriculturadagostini" target="_blank"
+                                aria-label="Facebook">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Sempre no final da body-->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+    document.getElementById("btn-enviar").addEventListener("click", function(event) {
+        event.preventDefault();   
+        alert("Site em manutenção, tente novamente depois! :(");
+    });
+    </script>
+    
+</body>
+</html>

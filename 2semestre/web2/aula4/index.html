@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <title>Aula 4 web2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <h1>Cadastro clientes</h1>
+    <form method="get" id="cadastra_clientes" action="cadastro.php">
+        <div class="mb-5">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" name="nm" id="nome" aria-describedby="nome"
+                placeholder="Nome do cliente" />
+            <small id="helpnome" class="form-text text-muted visually-hidden">Informe um nome valido!</small>
+        </div>
+
+        <div class="mb-3">
+            <label for="ema" class="form-label">email</label>
+            <input type="text" class="form-control" name="ema" id="ema" aria-describedby="email"
+                placeholder="Digite um email" />
+            <small id="helpemail" class="form-text text-muted visually-hidden">Digite um email valido</small>
+        </div>
+
+
+        <div class="mb-5">
+            <label for="end" class="form-label">Endereço</label>
+            <input type="text" class="form-control" name="end" id="end" aria-describedby="endereço"
+                placeholder="Digite o endereço" />
+            <small id="helpend" class="form-text text-muted visually-hidden">Digite um endereço valido!</small>
+        </div>
+
+        <div class="mb-3">
+            <label for="data" class="form-label">Data</label>
+            <input type="date" class="form-control" name="data" id="data" aria-describedby="helpId"
+                placeholder="Informe a data" />
+            <small id="helpdata" class="form-text text-muted">Digite uma data valida</small>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">
+            Enviar
+        </button>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

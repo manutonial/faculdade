@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang=pt-BR>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 CSS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <!--                      ICONES                       -->
+    <div class="icones">
+        <span class="material-icons alt">home</span>    
+        <span class="material-icons alt">add_shopping_cart</span>
+    </div>  
+
+    <form action="get" action="cadastro.php">
+    <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+    </div>
+    <div>
+        <label for="idade" >Idade</label>
+        <input type="number" name="idade" id="idade" min="0" max="110" required>
+    </div>
+    <div>
+        <input type="submit" nome="enviar" id="env">
+    </div>
+    <div>
+        <input type="reset" name="voltar" id="volt">
+    </div>
+    </form>
+
+    <div id="tabela">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Curso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paulo</td>
+                <td>Ads</td>
+            </tr>
+            <tr>
+                <td>Andre</td>
+                <td>Putao</td>
+            </tr>
+            <tr>
+                    <td>Gabriel</td>
+                    <td>Adm</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

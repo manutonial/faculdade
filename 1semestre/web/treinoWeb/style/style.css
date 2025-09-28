@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+}
+
+.my-card-style {
+    max-width: 700px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0 0 6px red;
+}
+
+input, label {
+    width: 800px;
+}
+
+textarea {
+    width: 800px;
+    height: 250px;
+}
+
+.my-form-container {
+    background-color: aliceblue;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.my-footer{
+    padding-bottom: 0px;
+}
+/*IMG*/ 
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+}

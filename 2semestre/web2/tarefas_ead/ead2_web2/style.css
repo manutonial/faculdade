@@ -1,0 +1,73 @@
+/* ===== Estilos globais ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background: #f7f7f7;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* ===== Saudação (Questão 1) ===== */
+#saudacao-img {
+  width: 320px;       /* largura da imagem */
+  max-width: 100%;    /* responsivo */
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-top: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#hora {
+  font-weight: bold;
+  color: #444;
+}
+
+#saudacao-text {
+  font-size: 1.1rem;
+  margin-top: 6px;
+  color: #0066cc;
+}
+
+/* ===== Lista (Questão 2) ===== */
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 4px 0;
+  color: #222;
+}
+
+/* ===== Inputs (Questão 3) ===== */
+input[type="text"] {
+  display: block;
+  margin-top: 8px;
+  padding: 6px;
+  width: 320px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* ===== Botões (Questões 2, 3 e 4) ===== */
+button {
+  margin: 8px 6px 0 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}

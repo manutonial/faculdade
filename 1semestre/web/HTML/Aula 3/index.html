@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Usa essa parte para relacionar a um documento css: <link rel="stylesheet" href="yourfile.css"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários 03-04</title>
+</head>
+
+<body>
+    <h1 id="google">pesquisa google</h1>
+    
+    <form action="https://google.com/search" method="get" target="_blank">
+        <fieldset>
+          
+        <label for="q">Pesquise no google:</label>                                     <br>
+        <input type="text" id="q" name="q">                                            <br>
+        <legend>Turno</legend>
+            <input type="radio" name="pesquisa" id="todas" value="1">
+            <label for="todas">Todas</label>                                           <br>
+            
+            <input type="radio" name="pesquisa" id="Imagens" value="2">
+            <label for="Imagens">Imagens</label>                                       <br>
+            
+            <input type="radio" name="pesquisa" id="Videos" value="7">
+            <label for="Videos">Vídeos</label>                                         <br>
+
+        
+        
+        <input type="submit" value="pesquisar" name="pesquisa">                        <br>
+        
+
+        </fieldset>
+        
+    </form>
+    <hr>
+
+
+    <!-- <form action =""> botar irl -->
+
+    <form action="https://" method="get">
+        
+        <label for="nm">Informe seu primeiro nome:</label>                          <br>
+        <input type="text" id="nm" name="jose" placeholder="Digite seu nome">       <br>
+        
+        <label for="sb">Informe seu sobrenome</label>                               <br>                           
+        <input type="text" id="sb" name="sb" placeholder="Digite seu sobrenome">    <br>
+        
+        <label for="email">Informe seu email:</label>                               <br>
+        <input type="email" id="email" name="email">                                <br> 
+
+        <label for="senha"> Informe sua senha:</label>                              <br>
+        <input type="password">                                                     <br>
+        
+        <label for="idade">Informe sua idade:</label>                               <br>
+        <input type="number" name="idade" id="idade">                               <br>
+                                                                                    
+        
+        <input type="datetime-local" name="dtn" id="dtn">                           <br>                           
+        
+        <fieldset>                                                                  
+            <legend>Turno</legend>
+            <input type="radio" name="turno" id="manha" value="M">
+            <label for="manha">Manhã</label>                                        <br>
+            
+            <input type="radio" name="turno" id="tarde" value="T">
+            <label for="tarde">Tarde</label>                                        <br>
+            
+            <input type="radio" name="turno" id="noite" value="N">
+            <label for="noite">Noite</label>
+
+            
+        </fieldset>
+        
+
+            <input type="checkbox" name="msg" id="msg" value="S">
+            <label for="msg">Deseja receber notificações?</label>                   <br>
+                                                                                    <br>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Paraná</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>                           
+            </select>
+                                                                                    <br>   
+                                                                                    <br>                                                             
+            <label for="obs">Observação:</label>
+            <textarea name="obs" id="obs" rows="1" cols="50"></textarea>            <br>
+                                                                                    <br>
+
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto">
+                                                                                    <br>
+                                                                                    <br>
+            <input type="submit" value="Enviar" name="salvar">
+            <input type="reset" value="limpar" name="limpar">
+
+    </form>
+
+</body>
+
+</html>

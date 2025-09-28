@@ -1,0 +1,29 @@
+        h1
+        {
+            color:rebeccapurple;
+            font: size 20px;
+            background-color:whitesmoke;
+            text-align:center;
+        }
+        #p1
+        {
+            color:blueviolet;
+            font: size 16px;
+        }
+        #p2, #foot
+        {
+            color:red;
+            font: size 20px;
+        }
+        li
+        {
+            color:darkgreen;            
+        }
+        #sub
+        {
+            color:brown
+        }
+        #foot 
+        {
+            font: size 35px;
+        } 
