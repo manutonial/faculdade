@@ -1,0 +1,6 @@
+PRODUTO         QUANTIDADE PRECO_UNITARIO PRECO_TOTAL
+agua mineral           120           0.69        82.8           
+refrigerante           50            2.45        122.5          
+suco                   60            5.7         342            
+copo descartavel       250           0.2         50             
+                                           TOTAL: 597.3

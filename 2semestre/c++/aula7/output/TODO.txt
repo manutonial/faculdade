@@ -1,0 +1,12 @@
+Descricao: estudar
+Categoria: trabalho]
+Prioridade: 5
+-----------------------------
+Descricao: python
+Categoria: trabalho
+Prioridade: 4
+-----------------------------
+Descricao: estudar
+Categoria: pessoal
+Prioridade: 1
+-----------------------------
