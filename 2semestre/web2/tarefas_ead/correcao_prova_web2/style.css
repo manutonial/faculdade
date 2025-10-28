@@ -1,0 +1,16 @@
+#imagem-input {
+    width: 150px;
+    height: 300px;
+}
+#valor-cheio, #boleto-pix {
+    color: gray;
+}
+
+#valor-desconto {
+    color:blue
+}
+
+#previsao-entrega {
+    background-color: rgb(228, 110, 110);
+    border-radius: 15px;
+}

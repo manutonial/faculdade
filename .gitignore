@@ -26,3 +26,5 @@ __pycache__/ # For Python projects
 # Sensitive information (if applicable, be cautious)
 *.env
 .env.local
+.pdf
+*.exe
